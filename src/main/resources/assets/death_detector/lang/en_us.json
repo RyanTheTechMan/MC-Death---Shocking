@@ -1,0 +1,9 @@
+{
+  "key.death_detector.debug_mode": "Debug Mode",
+  "key.death_detector.detach_serial": "Toggle Serial Connection",
+  "key.death_detector.increase_com": "Increase COM Port",
+  "key.death_detector.decrease_com": "Decrease COM Port",
+  "key.death_detector.increase_time": "Increase Shock Time",
+  "key.death_detector.decrease_time": "Decrease Shock Time",
+  "category.death_detector.main": "Death Detector"
+}

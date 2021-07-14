@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.ryanthetechman.death_detector.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "ChatAccessor",
+    "OnDeath",
+    "OnChat"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

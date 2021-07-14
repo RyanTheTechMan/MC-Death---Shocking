@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "death_detector",
+  "version": "${version}",
+  "name": "Death Detector",
+  "description": "This mod is used to detect death in minecraft and using that as an input, to then be put into the arduino compiler then outputed",
+  "authors": [
+     "RyanTheTechMan"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/death_detector/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.ryanthetechman.death_detector.client.Death_detectorClient"
+    ],
+    "main": [
+      "com.ryanthetechman.death_detector.Death_detector"
+    ]
+  },
+  "mixins": [
+    "death_detector.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
